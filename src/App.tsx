@@ -1,4 +1,4 @@
-import "./App.css";
+import EasyGame from "./components/EasyGame";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <button>Small</button>
       <button>Medium</button>
       <button>Big</button>
+      <EasyGame />
     </div>
   );
 }
